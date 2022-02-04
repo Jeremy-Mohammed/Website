@@ -21,7 +21,6 @@ section{
     /* background-image: url("images");*/
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 nav{
@@ -74,9 +73,9 @@ nav ul li a{
 
 .text-container p:nth-child(3){
     font-family: sans-serif;
+    letter-spacing:1px;
     color: #403e3e;
     font-size:30px;
-    line-height:40px;
 }
 
 .text-container p{
@@ -89,30 +88,4 @@ nav ul li a{
     left:13%;
     top:42%;
     transform:translate(-13%,42%)
-}
-
-.text-container button{
-    width:130px;
-    height:42px;
-    border-radius:10px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size:14px;
-    outline:none;
-    margin:0px 10px;
-}
-
-.gh-btn{
-    border:2px solid;
-    color:373636;
-}
-
-.li-btn{
-    background-color:#0b0b0b;
-    color:#ffffff;
-    border:none;
-}
-
-button:active{
-    transform:scale(1.1);
 }
