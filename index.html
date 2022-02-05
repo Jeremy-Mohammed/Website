@@ -2,6 +2,7 @@
     <html lang="en">
         <head>
             <meta charset="UFT-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Jeremy Portfolio</title>
             <link rel="stylesheet" href="style.css" type="text/css">
@@ -18,6 +19,7 @@
                         <li><a href="Projects">Projects</a></li>
                         <li><a href="Contact">Contact</a></li>
                     </ul>
+                    <div class="toggle"></div>
                 </nav>
 
                 <div class="text-container">
@@ -29,5 +31,92 @@
                 </div>
 
             </section>
+
+            <div class="about-container">
+                <img src="images/portrait.png">
+                <div class="about-text">
+                    <p>About Me</p>
+                    <p>Software Developer</p>
+                    <p>Hello</p>
+                    <p>I am Developer</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-text">
+                    <p>Skills</p>
+                    <p>Things i good at ayaayyay</p>
+                </div>
+                <div class="skills-container-1">
+                    <div class="skill-1">
+                        <div class="skill-header">
+                            <img src="images/logos/java.png" width = "50" height = "50">
+                            <p class="skill-title">Java</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                    <div class="skill-2">
+                        <div class="skill-header">
+                            <img src="images/logos/cpp.png" width = "50" height = "50">
+                            <p class="skill-title">C++</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                    <div class="skill-3">
+                        <div class="skill-header">
+                            <img src="images/logos/python.png" width = "50" height = "50">
+                            <p class="skill-title">Python</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                </div>
+                <div class="skills-container-2">
+                    <div class="skill-4">
+                        <div class="skill-header">
+                            <img src="images/logos/html.png" width = "50" height = "50">
+                            <p class="skill-title">HTML</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                    <div class="skill-5">
+                        <div class="skill-header">
+                            <img src="images/logos/css.png" width = "50" height = "50">
+                            <p class="skill-title">CSS</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                    <div class="skill-6">
+                        <div class="skill-header">
+                            <img src="images/logos/javascript.png" width = "50" height = "50">
+                            <p class="skill-title">JavaScript</p>
+                        </div>
+                        <p class="skill-deatils">I good </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p>Contact me</p>
+            </div>
+
+            <footer>
+                <p></p>
+                <p></p>
+                <div class="social-icons">
+                    <a href="#"><i>class=</i></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                <p class="copyright">Copyright</p>
+            </footer>
+            <script type="text/javascript" src="js/JQuery.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('toggle').click(function(){
+                        $('toggle').toggleClass('active')
+                        $('nav').toggleClass('active')
+                    })
+                })
+                </script>
         </body>
     </html>
