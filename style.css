@@ -15,9 +15,13 @@ a{
     text-decoration:none;
 }
 
-section{
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
     width:100%;
-    height:95vh;
+    height:75vh;
     /* background-image: url("images");*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +63,7 @@ nav ul li a{
 
 .active{
     font-weight:bold;
-    color:#242526;
+    color:#00d8d8;
 } 
 
 .text-container p:nth-child(1){
@@ -191,8 +195,8 @@ button:active{
 .skills-text{
     margin:50px 0px;
     text-align:center;
-    content:"\f13b";
 }
+
 
 .skills-text p:nth-child(1){
     font-family:sans-serif;
@@ -221,6 +225,25 @@ button:active{
     flex-direction:column;
     border-radius:10px;
 }
+
+.skill-1:hover, .skill-2:hover, .skill-3:hover, .skill-4:hover, .skill-5:hover, .skill-6:hover{
+    background-color:#00d8d8;
+}
+
+.skill-1:hover p, .skill-2:hover, .skill-3:hover, .skill-4:hover, .skill-5:hover, .skill-6:hover{
+    color:black;
+}
+
+.skill-1:after, .skill-2:after, .skill-3:after, .skill-4:after, .skill-5:after, .skill-6:after{
+    content:'';
+    width:100%;
+    height:15px;
+    position:relative;
+    bottom:0;
+    left:0;
+    background:#00d8d8;
+    border-radius:10px;
+    }
 
 .skill-header, .skill-header-4{
     display:flex;
@@ -381,6 +404,8 @@ footer p:nth-child(2){
     }
     .skills{
         padding: 2%;
+        margin-top:10px;
+        flex-grow:0;
         height: auto;
     }
     .skills-container-1, .skills-container-2{
@@ -405,6 +430,17 @@ footer p:nth-child(2){
     .toggle{
         display:block;
     }
+    .toggle:before{
+        content:'\f0c9';
+        font-family:fontAwesome;
+        line-height:30px;
+    }
+    .toggle.active:before{
+        content:'\f00d';
+        position:fixed;
+        right:25px;
+        line-height:0px;
+    }
     .text-container{
         left:50;
         width:80%;
@@ -412,22 +448,25 @@ footer p:nth-child(2){
     .text-container p:nth-child(3){
         line-height:40px;
     }
+    nav{
+        padding: 10px 30px;
+    }
     nav ul{
         margin:0px;
         padding:0px;
         background-color:#242526;
         flex-direction:column;
-        position:fixed;
+        position:absolute;
         left:0;
         top:0;
         width:100%;
-        height:100vh;
+        height:auto;
         box-sizing:border-box;
         display:flex;
         justify-content:center;
         align-items:center;
+        transition: 0.5s;
         z-index:1;
-        display:none;
     }
     nav ul li{
         padding:10px;
@@ -437,18 +476,6 @@ footer p:nth-child(2){
         font-size:1.4em;
         text-transform:uppercase;
         color:#E4E6EB;
-    }
-    .toggle:before{
-        content:'\f0c9';
-        font-family:fontAwesome;
-        line-height:30px;
-        z-index:1;
-    }
-    .toggle.active:before{
-        content:'\f00d';
-        position:fixed;
-        right:25px;
-        line-height:0px;
     }
     nav.active ul{
         display:flex !important;
@@ -471,6 +498,9 @@ footer p:nth-child(2){
         width:90%;
         text-align:center;
         margin-left:7%;
+    }
+    .skills{
+        display:flex;
     }
     .skills-text{
         width:100%;
