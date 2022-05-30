@@ -1,8 +1,9 @@
 # Personal Website
 
-**[Jeremymohammed.ca](jeremymohammed.ca)**
+**[Jeremymohammed.ca](https://jeremymohammed.ca"My Personal Website")**
 
-Here you can;
+
+Here you can :
 * Learn About Me!
 * Check out some of my Skills!
 * Find my Contact Info!
