@@ -2,4 +2,7 @@
 
 **[Jeremymohammed.ca](jeremymohammed.ca)**
 
-Here you can learn a bit more about me, check out some of my skills, and find my contact info!
+Here you can;
+* Learn About Me!
+* Check out some of my Skills!
+* Find my Contact Info!
