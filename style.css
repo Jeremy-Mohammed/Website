@@ -505,7 +505,7 @@ footer p:nth-child(1){
         top:0%;
         width:90%;
         flex-direction:column;
-        margin-top:70%;
+        margin-top:90%;
         height:auto;
         padding:30px 0px;
         align-items:center;
@@ -537,10 +537,14 @@ footer p:nth-child(1){
     .social-icons{
         flex-direction: column;
     }
+    .social-icons a{
+        left:200%;
+        transform:translate(200%);
+    }
 }
 
 @media(max-width:300px){
     .about-container{
-        margin-top:140%;
+        margin-top:240%;
     }
 }
