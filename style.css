@@ -549,13 +549,6 @@ footer p:nth-child(1){
     .skills-text{
         width:100%;
     }
-    .contact{
-        height:280px;
-    }
-    .contact p{
-        font-size:18px;
-        padding-bottom:20px;
-    }
     footer p:nth-child(2){
         width:90%;
     }
@@ -579,5 +572,6 @@ footer p:nth-child(1){
     }
     .about-container{
         margin-top:140%;
-    }
+    }.c1, .c2, .c3{
+        font-size:15px;
 }
