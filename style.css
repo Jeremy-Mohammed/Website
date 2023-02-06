@@ -52,6 +52,25 @@ nav ul li a{
     color: #E4E6EB;
     font-size: 20px;
 }
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar-links li:hover{
+    background-color: #3A3B3C;
+}
 
 .logo{
     font-family:sans-serif;
