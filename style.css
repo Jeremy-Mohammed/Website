@@ -351,17 +351,9 @@ button:active{
     font-weight:bold;
 }
 
-.icon-2 a{
-    border-radius:50%;
-    overflow:hidden;
-    width:50px;
-    height:50px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    margin:10px 10px 10px 30px;
-    border-radius:50%;
+.social-contact a{
+    display: flex;
+    flex-direction: row;
 }
 
 .icon-1, .icon-2, .icon-3{
@@ -382,6 +374,8 @@ button:active{
     font-size:20px;
     line-height:25px;
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
