@@ -351,8 +351,41 @@ button:active{
     font-weight:bold;
 }
 
+.icon-2 a{
+    border-radius:50%;
+    overflow:hidden;
+    width:50px;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:10px 10px 10px 30px;
+    border-radius:50%;
+}
+
+.icon-1, .icon-2, .icon-3{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    color:#E4E6EB;
+    font-size:20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+    height:50px;
+}
+.c1, .c2, .c3{
+    font-family: sans-serif;
+    color: #B0B3B8;
+    font-size:20px;
+    line-height:25px;
+    padding-bottom: 20px;
+}
+
 footer{
-    height:350px;
+    height:100px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -367,30 +400,8 @@ footer p{
 
 footer p:nth-child(1){
     font-weight:bold;
-    color:#191919;
+    color:grey;
     line-height:10px;
-}
-
-
-.social-icons a{
-    border-radius:50%;
-    overflow:hidden;
-    width:50px;
-    height:50px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    margin:10px 10px 10px 30px;
-    border-radius:50%;
-}
-
-.social-icons{
-    display:flex;
-    flex-direction:row;
-    padding-bottom: 50px;
-    color:#E4E6EB;
-    font-size:20px;
 }
 
 .copyright{
