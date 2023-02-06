@@ -335,7 +335,7 @@ button:active{
 
 .contact{
     width: 100%;
-    height:160px;
+    height:180px;
     background-size:cover;
     background-repeat:no-repeat;
     display:flex;
@@ -349,6 +349,7 @@ button:active{
     font-size:30px;
     font-family:sans-serif;
     font-weight:bold;
+    padding-top: 60px;
 }
 
 .social-contact a{
@@ -376,6 +377,10 @@ button:active{
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.c3{
+    padding-bottom: 60px;
 }
 
 footer{
@@ -574,4 +579,5 @@ footer p:nth-child(1){
         margin-top:140%;
     }.c1, .c2, .c3{
         font-size:15px;
+    }
 }
