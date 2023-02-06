@@ -43,6 +43,7 @@ nav ul{
 }
 
 .toggle{
+    position: absolute;
     display:none;
 }
 
@@ -513,8 +514,8 @@ footer p:nth-child(1){
     }
     nav ul li a{
         font-family:sans-serif;
+        margin: 5px;
         font-size:1.4em;
-        text-transform:uppercase;
         color:#E4E6EB;
     }
     nav.active ul{
