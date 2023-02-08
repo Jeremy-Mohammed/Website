@@ -585,6 +585,9 @@ footer p:nth-child(1){
 }
 
 @media(max-height:640px){
+    .projects-container{
+        margin-top:100px;
+    }
     .about-container{
         margin-top:140%;
     }
