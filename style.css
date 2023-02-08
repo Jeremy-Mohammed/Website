@@ -431,12 +431,6 @@ footer p:nth-child(1){
     *{
         box-sizing:border-box;
     }
-    .text-container p:nth-child(4){
-        line-height:40px;
-    }
-    .text-container p:nth-child(2){
-        line-height:80px;
-    }
     .text-container button{
         margin:5px;
     }
@@ -567,6 +561,9 @@ footer p:nth-child(1){
 }
 
 @media(max-width:500px){
+    .text-container p:nth-child(1){
+        padding-top: 10px;
+    }
     .text-container p:nth-child(2){
         font-family: sans-serif;
         font-weight: bold;
