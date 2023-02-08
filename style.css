@@ -578,3 +578,14 @@ footer p:nth-child(1){
         font-size:15px;
     }
 }
+@media(max-height:750px){
+    .about-container{
+        margin-top:40%;
+    }
+}
+
+@media(max-height:640px){
+    .about-container{
+        margin-top:140%;
+    }
+}
